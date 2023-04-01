@@ -5,7 +5,7 @@ Data's true power is its ability to definitively answer questions. So, let's tak
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
 
 # Summary
-For this assignment I had to utilize python, jupyter notebook, matplotlib, and two API's (OpenWeatherMap API and Geoapify API) to analyze how weather differs when approaching or getting further away from the equator. There are two jupyter notebooks called WeatherPy and VacationPy that I worked on. The files are located in the WeatherPy folder.
+For this assignment I had to utilize python, jupyter notebook, matplotlib, and two API's (OpenWeatherMap API and Geoapify API) to analyze how weather differs when approaching or getting further away from the equator. There are two jupyter notebooks called WeatherPy and VacationPy that I worked on. 
 
 # WeatherPy.ipynb
 After retrieving random geographic coordinates from the citipy Python library, I had a list of 621 different cities. I then utilized the OpenWeather API to retrieve city weather data which included the: City Name, Latitude, Longitude, Max Temperature (C), Humidity (%), Cloudiness (%), Wind Speed (m/s) Country, and Date. I appended this data into the city_data list and now had a total of 573 cities with their respective weather data. I then created a csv file called cities.csv and put it into the output_data folder.
@@ -28,6 +28,7 @@ I then created a new DataFrame with the new ideal weather conditions and named i
 Lastly, I added the hotel name and country as additional hover message information for the previously generated hvplot map.
 
 # File Location
-Both the WeatherPy_main.ipynb and VacationPy_main.ipynb files can be found in the "starter_code" folder. 
+The files are located in the "WeatherPy" folder.
 
-The cities.csv and four scatterplot .png figures can be found in the "output_data" folder.
+- Both the WeatherPy_main.ipynb and VacationPy_main.ipynb files can be found in the "starter_code" folder. 
+- The cities.csv and four scatterplot .png figures can be found in the "output_data" folder.
